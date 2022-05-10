@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="allTopicsAnchor" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="534.0" prefWidth="693.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="allTopicsController">
+    <children>
+        <TextField fx:id="aliasField" layoutX="523.0" layoutY="10.0" prefHeight="39.0" prefWidth="152.0" style="-fx-background-color: FF9999;">
+         <font>
+            <Font name="Verdana Bold" size="16.0" />
+         </font></TextField>
+        <TextField fx:id="alias1" alignment="CENTER" layoutX="14.0" layoutY="61.0" prefHeight="39.0" prefWidth="115.0" style="-fx-background-color: #00CC00;" text="All Topics">
+            <font>
+                <Font name="Verdana Bold" size="16.0" />
+            </font>
+        </TextField>
+      <Button fx:id="back" alignment="CENTER" layoutX="599.0" layoutY="482.0" mnemonicParsing="false" onAction="#backAction" prefHeight="38.0" prefWidth="77.0" style="-fx-background-color: #D4AC0D;" text="Back">
+         <font>
+            <Font name="Verdana Bold" size="12.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

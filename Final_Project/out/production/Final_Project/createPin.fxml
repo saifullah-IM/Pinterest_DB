@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<?import javafx.scene.control.Button?>
+<AnchorPane fx:id="mainPage" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="580.0" prefWidth="835.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="createPinController">
+   <children>
+      <Button fx:id="boardButton" alignment="CENTER" layoutX="263.0" layoutY="511.0" onAction="#selectBoard" prefHeight="47.0" prefWidth="187.0" text="Select Board">
+         <font>
+            <Font name="Verdana Bold" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="backButton" alignment="CENTER" layoutX="757.0" layoutY="511.0" onAction="#goBack" prefHeight="47.0" prefWidth="64.0" text="Back">
+         <font>
+            <Font name="Verdana Bold" size="14.0" />
+         </font>
+      </Button>
+      <TextField fx:id="titleBox" alignment="CENTER" layoutX="16.0" layoutY="511.0" prefHeight="47.0" prefWidth="235.0" promptText="title">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Button fx:id="goButton" alignment="CENTER" layoutX="554.0" layoutY="511.0" onAction="#go" prefHeight="47.0" prefWidth="187.0" text="Home/News Feed">
+         <font>
+            <Font name="Verdana Bold" size="16.0" />
+         </font>
+      </Button>
+      <TextField fx:id="descriptionBox" alignment="CENTER" layoutX="16.0" layoutY="438.0" prefHeight="58.0" prefWidth="805.0" promptText="description">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <Button fx:id="doneButton" alignment="CENTER" layoutX="468.0" layoutY="511.0" onAction="#finish" prefHeight="47.0" prefWidth="71.0" text="Done">
+         <font>
+            <Font name="Verdana Bold" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

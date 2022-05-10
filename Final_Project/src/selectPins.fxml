@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.TilePane?>
+<?import javafx.scene.text.Font?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="580.0" prefWidth="824.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/10.0.1">
+  <content>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1482.0" prefWidth="2046.0">
+         <children>
+            <TilePane layoutX="12.0" layoutY="69.0" prefHeight="635.0" prefWidth="1018.0" />
+            <TextField editable="false" layoutX="12.0" layoutY="11.0" prefHeight="39.0" prefWidth="459.0" text="Select the pins you want to add to your board...">
+               <font>
+                  <Font name="Verdana Bold" size="16.0" />
+               </font>
+            </TextField>
+         </children></AnchorPane>
+  </content>
+</ScrollPane>
